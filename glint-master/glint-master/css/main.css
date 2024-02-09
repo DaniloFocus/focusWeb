@@ -1320,7 +1320,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: inline-block;
     height: 1px;
     width: 550px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color:#000000;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -2239,7 +2239,7 @@ html.no-csstransitions .home-content__main {
   body p {
     font-size: 1.6rem;
     font-weight: 400;
-    color: #d6d6d6;
+    color: #000000;
   }
  #about{
     margin-top: 22px;
@@ -2278,6 +2278,7 @@ html.no-csstransitions .home-content__main {
   #about .container-about article p {
     width: 100%;
     line-height: 1.7em;
+    color: #fff;
   }
   #about > div{
     width: 100%;
@@ -2386,7 +2387,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-    padding-top: 16.2rem;
+    padding-top: 10.2rem;
     padding-bottom: 13.2rem;
     background-color: #FFFFFF;
     color: #757575;
@@ -2423,7 +2424,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #39b54a;
+    color: #000000;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -3354,7 +3355,7 @@ footer {
     font-size: 15px;
     line-height: 2;
     text-align: center;
-    color: rgba(255, 255, 255, 0.3);
+    color: #000000;
 }
 
 footer h4 {
@@ -3383,6 +3384,12 @@ footer .row {
  * --------------------------------------------------------------- */
 .footer-main {
     text-align: left;
+}
+#footer > div.col-six.tab-full.left.footer-desc{
+    color: #fff;
+}
+#footer > div.col-six.tab-full.right.footer-subscribe > p{
+    color: #fff;
 }
 
 .footer-main .left {
@@ -3461,9 +3468,9 @@ footer .row {
     position: absolute;
     top: 0;
     right: 0;
-    color: #FFFFFF;
-    background: #39b54a;
-    border-color: #39b54a;
+    color: #000000;
+    background: #fff;
+    border-color: #fff;
     padding: 0 20px;
 }
 
@@ -3490,13 +3497,14 @@ footer .row {
 
 .footer-bottom .copyright span {
     display: inline-block;
+    color: #fff;
 }
 
 .footer-bottom .copyright span::after {
     content: "|";
     display: inline-block;
     padding: 0 1rem 0 1.2rem;
-    color: rgba(255, 255, 255, 0.05);
+    color: #fff;
 }
 
 .footer-bottom .copyright span:last-child::after {

@@ -116,7 +116,7 @@ a:hover, a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, 
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     color: #000000;
     font-style: normal;
     font-weight: normal;
@@ -1810,7 +1810,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 6.3rem;
     line-height: 1.333;
     margin-top: 0;

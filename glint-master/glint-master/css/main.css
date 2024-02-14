@@ -2256,7 +2256,7 @@ html.no-csstransitions .home-content__main {
   }
   #about .container-about figure {
     width: 35%;
-    height: 500px;
+    height: 600px;
     border-radius: 2rem;
   }
   #about .container-about figure img {
@@ -3372,7 +3372,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #39b54a;
+    color: #4339b5;
 }
 
 footer .row {
@@ -3403,15 +3403,16 @@ footer .row {
 
 .footer-logo {
     display: block;
-    margin: -.6rem 0 3.6rem 0;
+   
     padding: 0;
-    outline: 0;
+    
     border: none;
-    width: 85px;
-    height: 28px;
-    background: url("../images/logo-footer.png") no-repeat center;
-    background-size: 85px 28px;
+    width: 95px;
+    height: 100px;
+    background: url("../images/FOCüS\ LOGO\ PNG.png") no-repeat center;
+    background-size: 95px 38px;
     font: 0/0 a;
+    
     text-shadow: none;
     color: transparent;
     -webkit-transition: all 0.3s ease-in-out;

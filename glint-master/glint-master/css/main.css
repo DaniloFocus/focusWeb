@@ -2253,7 +2253,23 @@ html.no-csstransitions .home-content__main {
     height: 700px;
     background-color: #000000;
   }
- 
+  @media screen and (max-width: 1200px){
+    #about .container-about {
+        flex-direction: column!important;
+    
+    }
+    #about{
+        height: 1350px;
+    }
+    #about .container-about figure{
+        width: 50%!important;
+        height: 700px!important;
+        margin: 0;
+    }
+    #about .container-about figure img {
+        max-width: 100%!important;
+    }
+  }
   #about .container-about {
     display: flex;
     align-items: center;

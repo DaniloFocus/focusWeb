@@ -837,9 +837,9 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #39b54a;
-    border-color: #39b54a;
-    color: #FFFFFF;
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #000000;
 }
 
 .btn.btn--primary:hover,
@@ -852,8 +852,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #33a242;
-    border-color: #33a242;
+    background: #515151;
+    border-color: #515151;
 }
 
 
@@ -1251,7 +1251,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #000000;
+    color: #ffffff;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -3014,8 +3014,8 @@ html.no-csstransitions .home-content__main {
     letter-spacing: .1rem;
     padding: 0 2rem;
     margin: 0;
-    color: #FFFFFF;
-    background: #39b54a;
+    color: #000000;
+    background: #ffffff;
 }
 
 .s-contact .form-field label::after {
@@ -3026,7 +3026,7 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #39b54a;
+    border-right: 5px solid #ffffff;
 }
 
 .contact__line {
@@ -3043,7 +3043,7 @@ html.no-csstransitions .home-content__main {
 .contact-content {
     max-width: 1000px;
     background-color: rgba(0, 0, 0, 0.2);
-    color: rgba(255, 255, 255, 0.4);
+    color: #fff;
     padding-top: 6rem;
     padding-bottom: 6rem;
     font-family: "montserrat-light", sans-serif;
@@ -3060,7 +3060,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #39b54a;
+    color: #fcfcfc;
 }
 
 .contact-content input[type="email"],
@@ -3072,7 +3072,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"],
 .contact-content textarea,
 .contact-content select {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgb(255, 255, 255);
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     margin-bottom: .9rem;
 }
@@ -3087,7 +3087,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #39b54a;
+    border-bottom: 1px solid #ffffff;
 }
 
 .contact-content button,
@@ -3097,7 +3097,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-    color: #4f4f4f;
+    color: #ffffff;
 }
 
 .contact-content input:-moz-placeholder,
@@ -3176,10 +3176,7 @@ html.no-csstransitions .home-content__main {
     color: white;
 }
 
-.contact-social li a:hover, 
-.contact-social li a:focus {
-    color: #39b54a;
-}
+
 
 .contact-social li:last-child {
     margin: 0;
@@ -3302,7 +3299,9 @@ html.no-csstransitions .home-content__main {
 .oldie .submit-loader .text-loader {
     display: block;
 }
-
+#contact > div.row.contact-content > div.contact-secondary > .contact-info > .cinfo p{
+    color: #fff;
+}
 
 /* --------------------------------------------------------------- 
  * ## loader animation 

@@ -2973,8 +2973,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
  .s-contact {
-    background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    background-color: #000000;
+    
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
@@ -3405,7 +3405,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 9rem 0 6rem;
+    padding: 5rem 0 4rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
@@ -3546,7 +3546,7 @@ footer .row {
  * ## footer bottom
  * --------------------------------------------------------------- */
 .footer-bottom {
-    margin-top: 5.4rem;
+    
     text-align: center;
     font-size: 14px;
 }

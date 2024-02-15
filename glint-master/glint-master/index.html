@@ -277,18 +277,20 @@
 
                 <h3 class="h6">Envie sua mensagem</h3>
 
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                <form name="contactForm" id="contactForm" method="POST" action="https://formsubmit.co/focusmusic@outlook.com.br">
                     <fieldset>
     
                     <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Nome" value="" minlength="2" required="" aria-required="true" class="full-width">
+                        <input name="name" type="text" id="contactName" placeholder="Seu nome" value="" minlength="2"  aria-required="true" class="full-width" required>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500//glint-master/glint-master/thanks.html">
                     </div>
                     <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                        <input name="email" type="email" id="contactEmail" placeholder="Seu email" value=""  aria-required="true" class="full-width" required>
                     </div>
                     <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Assunto" value="" class="full-width">
+                        <input name="subject" type="text" id="contactEmail" placeholder="Assunto" value=""  aria-required="true" class="full-width" required>
                     </div>
+                    
                     <div class="form-field">
                         <textarea name="contactMessage" id="contactMessage" placeholder="Mensagem" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                     </div>
@@ -342,7 +344,7 @@
                     </div>
 
                     <div class="cinfo">
-                        <h5>ligue para nós</h5>
+                        <h5>ligue agora</h5>
                         <p>
                             (+55) 819 8204-4078<br>
                            

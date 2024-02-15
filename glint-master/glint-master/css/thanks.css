@@ -1,0 +1,40 @@
+body{
+    background: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: normal;
+    
+    color: #757575;
+    
+    padding: 0;
+    height: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    
+}
+.main-thank {
+    width: 100%;
+    border: 1px solid green;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-thank section h1{
+    color: #fff;
+    border: 1px solid gold;
+    width: 100%;
+   
+}
+
+
+.main-thank section a{
+    text-decoration: none;
+   
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}

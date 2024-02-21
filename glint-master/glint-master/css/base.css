@@ -362,7 +362,7 @@ h6 {
     -webkit-font-variant-ligatures: common-ligatures;
     -moz-font-variant-ligatures: common-ligatures;
     font-variant-ligatures: common-ligatures;
-    text-rendering: optimizeLegibility;
+    
 }
 
 em,

@@ -1244,7 +1244,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .subhead + .display-2 {
     margin-top: .6rem;
 }
-
+.s-services .row div .subhead{
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.333;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .subhead {
     font-family: "montserrat-bold", sans-serif;
     font-size: 1.7rem;
@@ -1801,9 +1810,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
     overflow: hidden;
 }
-
-.home-content h3 {
-    font-family: "montserrat-medium", sans-serif;
+.home-content #text{
+     font-family: "montserrat-medium", sans-serif;
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
@@ -1813,6 +1821,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-bottom: 1.2rem;
     margin-left: 6px;
 }
+
 
 .home-content h1 {
     font-family: "Bebas Neue", sans-serif;

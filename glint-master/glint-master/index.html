@@ -32,15 +32,23 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+   
+    <link rel="preload" href="css/base.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="css/vendor.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/base.css"></noscript>
+    <noscript><link rel="stylesheet" href="css/vendor.css"></noscript>
+    <noscript><link rel="stylesheet" href="css/main.css"></noscript>
+    
+    
 
     <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-
+    <script src="js/modernizr.js" defer></script>
+    <script src="js/pace.min.js" defer></script>
+    <script src="js/jquery-3.2.1.min.js" defer></script>
+    <script src="js/plugins.js" defer></script>
+    <script src="js/main.js" defer></script>
     <!-- favicons
     ================================================== -->
     
@@ -336,10 +344,10 @@
             <div class="contact-secondary">
                 <div class="contact-info">
 
-                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+                    <h3 class="h6 hide-on-fullwidth">Info Contato</h3>
 
                     <div class="cinfo">
-                        <h5>Onde nos encontrar</h5>
+                        <h3>Onde nos encontrar</h3>
                         <p>
                             
                             Recife, PE<br>
@@ -348,7 +356,7 @@
                     </div>
 
                     <div class="cinfo">
-                        <h5>envie-nos um e-mail</h5>
+                        <h3>envie-nos um e-mail</h3>
                         <p>
                             focusmusic@outlook.com<br>
                             
@@ -356,7 +364,7 @@
                     </div>
 
                     <div class="cinfo">
-                        <h5>ligue agora</h5>
+                        <h3>ligue agora</h3>
                         <p>
                             (+55) 819 8204-4078<br>
                            
@@ -469,9 +477,7 @@
 
     <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+   
 
 </body>
 

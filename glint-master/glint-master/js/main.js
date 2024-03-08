@@ -150,6 +150,7 @@
             });
 
     };
+       
     
 
    /* Stat Counter
@@ -286,7 +287,7 @@
             var target = this.hash,
             $target    = $(target);
             
-                e.preventDefault();
+                
                 e.stopPropagation();
 
             $('html, body').stop().animate({
